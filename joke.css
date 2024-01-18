@@ -1,0 +1,54 @@
+#link {
+    position: fixed;
+    top: 10px; /* Adjust top position as needed */
+    right: 10px; /* Adjust right position as needed */
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+  }
+  
+  #link:hover{
+    background-color: darkgrey;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  
+  #text{
+    width: 40vh;
+    height: 40vh;
+    padding: 10vh 10vh;
+    background: black;
+  }
+  
+  #words{
+    height: 30vh;
+  }
+  #another{
+    height: 10vh;
+  }
+  h2{
+    font-size: 25px;
+  }
+  
+  #btn{
+    padding: 10px 20px;
+  }
+  
+  #btn:hover{
+     background: lightgrey;
+  }
